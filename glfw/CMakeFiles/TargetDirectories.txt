@@ -1,0 +1,6 @@
+C:/Users/56kpa/source/repos/TextureBoss/glfw/CMakeFiles/uninstall.dir
+C:/Users/56kpa/source/repos/TextureBoss/glfw/CMakeFiles/INSTALL.dir
+C:/Users/56kpa/source/repos/TextureBoss/glfw/CMakeFiles/ALL_BUILD.dir
+C:/Users/56kpa/source/repos/TextureBoss/glfw/CMakeFiles/ZERO_CHECK.dir
+C:/Users/56kpa/source/repos/TextureBoss/glfw/src/CMakeFiles/glfw.dir
+C:/Users/56kpa/source/repos/TextureBoss/glfw/src/CMakeFiles/INSTALL.dir

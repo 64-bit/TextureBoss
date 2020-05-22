@@ -1,0 +1,164 @@
+The system is: Windows - 10.0.18362 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 15.8.169+g1ccb72aefa for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 5/21/2020 6:20:31 PM.
+Project "C:\Users\56kpa\source\repos\TextureBoss\glfw\CMakeFiles\3.13.2\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\56kpa\source\repos\TextureBoss\glfw\CMakeFiles\3.13.2\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "C:\Users\56kpa\source\repos\TextureBoss\glfw\CMakeFiles\3.13.2\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.34
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/56kpa/source/repos/TextureBoss/glfw/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/56kpa/source/repos/TextureBoss/glfw/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_eefbf.vcxproj" "/p:Configuration=Debug" "/p:Platform=x64" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.8.169+g1ccb72aefa for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 5/21/2020 6:20:33 PM.
+Project "C:\Users\56kpa\source\repos\TextureBoss\glfw\CMakeFiles\CMakeTmp\cmTC_eefbf.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_eefbf.dir\Debug\".
+  Creating directory "C:\Users\56kpa\source\repos\TextureBoss\glfw\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_eefbf.dir\Debug\cmTC_eefbf.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_eefbf.dir\Debug\cmTC_eefbf.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_eefbf.dir\Debug\\" /Fd"cmTC_eefbf.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue C:\Users\56kpa\source\repos\TextureBoss\glfw\CMakeFiles\CMakeTmp\testCCompiler.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.15.26730 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  testCCompiler.c
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_eefbf.dir\Debug\\" /Fd"cmTC_eefbf.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue C:\Users\56kpa\source\repos\TextureBoss\glfw\CMakeFiles\CMakeTmp\testCCompiler.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\56kpa\source\repos\TextureBoss\glfw\CMakeFiles\CMakeTmp\Debug\cmTC_eefbf.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/56kpa/source/repos/TextureBoss/glfw/CMakeFiles/CMakeTmp/Debug/cmTC_eefbf.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/56kpa/source/repos/TextureBoss/glfw/CMakeFiles/CMakeTmp/Debug/cmTC_eefbf.lib" /MACHINE:X64  /machine:x64 cmTC_eefbf.dir\Debug\testCCompiler.obj
+  cmTC_eefbf.vcxproj -> C:\Users\56kpa\source\repos\TextureBoss\glfw\CMakeFiles\CMakeTmp\Debug\cmTC_eefbf.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_eefbf.dir\Debug\cmTC_eefbf.tlog\unsuccessfulbuild".
+  Touching "cmTC_eefbf.dir\Debug\cmTC_eefbf.tlog\cmTC_eefbf.lastbuildstate".
+Done Building Project "C:\Users\56kpa\source\repos\TextureBoss\glfw\CMakeFiles\CMakeTmp\cmTC_eefbf.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.50
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/56kpa/source/repos/TextureBoss/glfw/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_17af7.vcxproj" "/p:Configuration=Debug" "/p:Platform=x64" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.8.169+g1ccb72aefa for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 5/21/2020 6:20:35 PM.
+Project "C:\Users\56kpa\source\repos\TextureBoss\glfw\CMakeFiles\CMakeTmp\cmTC_17af7.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_17af7.dir\Debug\".
+  Creating directory "C:\Users\56kpa\source\repos\TextureBoss\glfw\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_17af7.dir\Debug\cmTC_17af7.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_17af7.dir\Debug\cmTC_17af7.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_17af7.dir\Debug\\" /Fd"cmTC_17af7.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.15.26730 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  CMakeCCompilerABI.c
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_17af7.dir\Debug\\" /Fd"cmTC_17af7.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCCompilerABI.c"
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\56kpa\source\repos\TextureBoss\glfw\CMakeFiles\CMakeTmp\Debug\cmTC_17af7.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/56kpa/source/repos/TextureBoss/glfw/CMakeFiles/CMakeTmp/Debug/cmTC_17af7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/56kpa/source/repos/TextureBoss/glfw/CMakeFiles/CMakeTmp/Debug/cmTC_17af7.lib" /MACHINE:X64  /machine:x64 cmTC_17af7.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_17af7.vcxproj -> C:\Users\56kpa\source\repos\TextureBoss\glfw\CMakeFiles\CMakeTmp\Debug\cmTC_17af7.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_17af7.dir\Debug\cmTC_17af7.tlog\unsuccessfulbuild".
+  Touching "cmTC_17af7.dir\Debug\cmTC_17af7.tlog\cmTC_17af7.lastbuildstate".
+Done Building Project "C:\Users\56kpa\source\repos\TextureBoss\glfw\CMakeFiles\CMakeTmp\cmTC_17af7.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.22
+
+
+
+
+Detecting C [] compiler features compiled with the following output:
+Change Dir: C:/Users/56kpa/source/repos/TextureBoss/glfw/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_c2276.vcxproj" "/p:Configuration=Debug" "/p:Platform=x64" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.8.169+g1ccb72aefa for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 5/21/2020 6:20:37 PM.
+Project "C:\Users\56kpa\source\repos\TextureBoss\glfw\CMakeFiles\CMakeTmp\cmTC_c2276.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_c2276.dir\Debug\".
+  Creating directory "C:\Users\56kpa\source\repos\TextureBoss\glfw\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_c2276.dir\Debug\cmTC_c2276.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_c2276.dir\Debug\cmTC_c2276.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c2276.dir\Debug\\" /Fd"cmTC_c2276.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue C:\Users\56kpa\source\repos\TextureBoss\glfw\CMakeFiles\feature_tests.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.15.26730 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  feature_tests.c
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c2276.dir\Debug\\" /Fd"cmTC_c2276.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue C:\Users\56kpa\source\repos\TextureBoss\glfw\CMakeFiles\feature_tests.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\56kpa\source\repos\TextureBoss\glfw\CMakeFiles\CMakeTmp\Debug\cmTC_c2276.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/56kpa/source/repos/TextureBoss/glfw/CMakeFiles/CMakeTmp/Debug/cmTC_c2276.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/56kpa/source/repos/TextureBoss/glfw/CMakeFiles/CMakeTmp/Debug/cmTC_c2276.lib" /MACHINE:X64  /machine:x64 cmTC_c2276.dir\Debug\feature_tests.obj
+  cmTC_c2276.vcxproj -> C:\Users\56kpa\source\repos\TextureBoss\glfw\CMakeFiles\CMakeTmp\Debug\cmTC_c2276.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_c2276.dir\Debug\cmTC_c2276.tlog\unsuccessfulbuild".
+  Touching "cmTC_c2276.dir\Debug\cmTC_c2276.tlog\cmTC_c2276.lastbuildstate".
+Done Building Project "C:\Users\56kpa\source\repos\TextureBoss\glfw\CMakeFiles\CMakeTmp\cmTC_c2276.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.23
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_variadic_macros
