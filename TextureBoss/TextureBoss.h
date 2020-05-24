@@ -3,13 +3,18 @@
 #include "UI/WindowManager.h"
 //main application instance
 
+class ShaderProgram;
+
 class TextureBoss
 {
 public:
 
 	void Init();
 
-	void OnFrame(float deltaT);
+	void OnFrameUI(float deltaT);
+
+	void OnFrameBackground(float deltaT);
+
 private:
 
 	void MenuBar();
@@ -20,6 +25,8 @@ private:
 	//managers
 
 	WindowManager* _windowManager = nullptr;
+
+	ShaderProgram* _backgroundShader = nullptr;
 
 	bool _showDebugMenu;
 };

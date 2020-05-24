@@ -164,6 +164,8 @@
     <ClInclude Include="glad\Docs.h" />
     <ClInclude Include="glad\include\glad\glad.h" />
     <ClInclude Include="glad\include\KHR\khrplatform.h" />
+    <ClInclude Include="GraphicsResources\GLTypes.h" />
+    <ClInclude Include="GraphicsResources\ShaderProgram.h" />
     <ClInclude Include="imgui\examples\imgui_impl_glfw.h" />
     <ClInclude Include="imgui\examples\imgui_impl_opengl3.h" />
     <ClInclude Include="imgui\imconfig.h" />
@@ -179,11 +181,13 @@
     <ClInclude Include="pch.h" />
     <ClInclude Include="TextureBoss.h" />
     <ClInclude Include="UI\AboutBox.h" />
+    <ClInclude Include="UI\GlDebugWindow.h" />
     <ClInclude Include="UI\Window.h" />
     <ClInclude Include="UI\WindowManager.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="glad\src\glad.c" />
+    <ClCompile Include="GraphicsResources\ShaderProgram.cpp" />
     <ClCompile Include="imgui\imgui.cpp" />
     <ClCompile Include="imgui\imgui_demo.cpp" />
     <ClCompile Include="imgui\imgui_draw.cpp" />
@@ -201,6 +205,7 @@
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="TextureBoss.cpp" />
     <ClCompile Include="UI\AboutBox.cpp" />
+    <ClCompile Include="UI\GlDebugWindow.cpp" />
     <ClCompile Include="UI\Window.cpp" />
     <ClCompile Include="UI\WindowManager.cpp" />
   </ItemGroup>

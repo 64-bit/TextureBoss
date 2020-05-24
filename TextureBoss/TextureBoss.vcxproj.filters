@@ -75,6 +75,15 @@
     <ClInclude Include="OSTemp\Files.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="GraphicsResources\ShaderProgram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsResources\GLTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\GlDebugWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -120,6 +129,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="OSTemp\Files.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsResources\ShaderProgram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\GlDebugWindow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
